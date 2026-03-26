@@ -1,0 +1,1 @@
+ALTER TABLE "referrals" ADD COLUMN "law_firm_name" varchar(255);
