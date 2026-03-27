@@ -2,7 +2,19 @@
 
 import { FormField, Input } from '../ui/form';
 
-export function PatientSection({ register, errors }: any) {
+import {
+  UseFormRegister,
+  FieldErrors,
+} from "react-hook-form";
+import { ReferralInput } from "@/lib/validators";
+
+
+type Props = {
+  register: UseFormRegister<ReferralInput>;
+  errors: FieldErrors<ReferralInput>;
+};
+
+export function PatientSection({ register, errors }: Props) {
   return (
     <section>
       <h2 className="section-title">Patient Information</h2>

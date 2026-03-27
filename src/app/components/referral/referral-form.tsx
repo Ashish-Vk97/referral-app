@@ -14,14 +14,7 @@ export default function ReferralForm() {
 
   return (
     <div className="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
-      <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-3 tracking-tight">
-          Synergex Med Portal
-        </h1>
-        <p className="text-lg text-gray-600 font-medium">
-          Submit your patient referral to the portal
-        </p>
-      </div>
+     
 
       <form
         onSubmit={onSubmit}
